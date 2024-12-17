@@ -18,7 +18,7 @@
 ### **3. Installed and Configured Git**  
 - Installed Git on local machine.  
 - Used Bash commands to authenticate GitHub account with a private key:  
-  1. `ssh-keygen -t ed25519 -C acharan7@gmail.com`  
+  1. `ssh-keygen -t ed25519 -C ***@gmail.com`  
   2. `ls -al ~/.ssh`  
   3. `cat ~/.ssh/id_ed25519.pub`  
   4. `ssh -T git@github.com`  
