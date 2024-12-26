@@ -6,23 +6,24 @@ Remove all personal information from public repo, including SSH keys and email a
 ---
 
 ### **2. AWS Lab**
-In this lab a VM (EC2) is spun up in AWS with Ubuntu disk, Git is installed for ease and speed of development and LAMP server is installed to host a custom web application.
-#### **Steps to Create and Configure EC2 Virtual Machine**
+In this lab a VM (EC2) is spun up in AWS with Ubuntu image, Git is installed for ease and speed of development and LAMP server is installed to host a custom website.
+#### **Steps to create and configure EC2 virtual machine**
  <img src="Assets\ec1.jpg" alt="ec1" width="500">
 
-1. **Create EC2 Virtual Machine with Ubuntu Image**  \ 
-   <img src="Assets\ubuntu1.png" alt="ubuntu1" width="500">  
-2. **Create SSH Key to Enable Access to VM**  
+1. **Create EC2 virtual machine with Ubuntu image** 
+   <img src="Assets\ubuntu1.png" alt="ubuntu1" width="500">
+
+2. **Create SSH Key to enable access to VM**  
    <img src="Assets\SSHcreate1.png" alt="SSHcreate1" width="500">
 
-3. **Create a Security Group**  
+3. **Create a security group**  
    Configure access to the VM using the SSH protocol (port 22).  
    <img src="Assets\securitygroup1.png" alt="securitygroup1" width="500">
 
-4. **Download Code for Future Deployment and Launch the Instance**  
+4. **Download code for future deployment and launch the instance**  
    <img src="Assets\launchinstance1.png" alt="launchinstance1" width="500">
 
-5. **Connecting to the VM Through Desktop Browser**  
+5. **Connecting to the VM through desktop browser**  
    <img src="Assets\VMconnect1.png" alt="VMconnect1" width="500">  
 
 
@@ -105,7 +106,7 @@ Cd html
 
 <img src="Assets\VMconnect11.png" alt="VMconnect11" width="500">
 
-b) To remove the index html file from the root folder.
+b) To remove the default Apache 2 index html file from the root folder.
 
 Sudo su
 
@@ -115,7 +116,7 @@ Clear
 
 <img src="Assets\VMconnect12.png" alt="VMconnect12" width="500">
 
-c) Clone the index html file to the root folder.
+c) Clone the index html file of the custom website to the root folder.
 
 <img src="Assets\VMconnect13.png" alt="VMconnect13" width="500">
 
