@@ -6,7 +6,7 @@ Remove all personal information from public repo, including SSH keys and email a
 ---
 
 ### **2. AWS Lab**
-
+In this lab a VM (EC2) is spun up in AWS with Ubuntu disk, Git is installed for ease and speed of development and LAMP server is installed to host a custom web application.
 #### **Steps to Create and Configure EC2 Virtual Machine**
  <img src="Assets\ec1.jpg" alt="ec1" width="500">
 
