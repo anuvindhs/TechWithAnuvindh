@@ -23,9 +23,9 @@ Markdown is a lightweight markup language that allows you to format text easily.
 It is often used for documentation, README files, and writing content.
 
 
-### **3. Adding Octopus Plugin** 
-To preview code written in Markdown within VS Code, you can add the Octopus plugin:
+### **3. Adding Markdown Preview Github Styling plugin** 
+To preview code written in markdown within VS Code, you can add the Markdown Preview Github Styling plugin:
 Open VS Code.
 Go to Extensions (Ctrl+Shift+X).
-Search for "Octopus" and install the plugin.
+Search for "Markdown Preview Github Styling" and install the plugin.
 Use the preview feature to view formatted Markdown content.
