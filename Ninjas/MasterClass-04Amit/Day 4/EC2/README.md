@@ -1,11 +1,12 @@
 # **Amazon EC2: Scalable Cloud Computing**
 
 ## **Purpose**  
-Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the cloud, allowing businesses to spin up to 750 virtual machines (instances) on demand. It offers customizable processors, storage, networking, and operating systems to meet diverse workload requirements.
+Amazon Elastic Compute Cloud (EC2) provides unlimited computing power in the cloud, allowing businesses to spin up to 750 virtual machines (instances) on demand. It offers customizable latest processors, storage, networking, and operating systems to meet diverse workload requirements without massive hardware investments upfront.
 
 <img src="Assets\ec21.png" alt="ec21" width="500">
 
 ## **How It Works**  
+AWS data centres host the EC2 which is accessible to the user from anywhere, providing the ability to customize on the fly.
 1. **Instance Provisioning:**
    - Launch the instance.
 
@@ -50,12 +51,12 @@ Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the c
 ---
 
 ## **Features & Benefits**  
-- **Customizable Instances:** Tailor compute resources to workload requirements.
-- **Auto Scaling:** Scale resources up or down to minimize upfront hardware investment (CapEx).
+- **Customizable Instances:** Tailor compute resources to exact workload requirements minimizing unnecessary running costs(OpEx).
+- **Auto Scaling:** Scale resources up or down minimizing upfront hardware investment (CapEx).
 - **Cost-Effective:** Pay-as-you-go pricing and Spot Instances for significant savings.
-- **Security:** Built in AWS Nitro System to the instance ensures robust security.
+- **Security:** Built in AWS Nitro System to the instance ensures data is secure.
 - **Fast Provisioning:** Launch virtual machines within minutes with a 99.99% SLA uptime guarantee.
-- **Global Deployment:** Operate across multiple regions and Availability Zones for enhanced resilience.
+- **Global Reach:** Operate across multiple regions and Availability Zones for enhanced resilience.
 
 ---
 
@@ -70,7 +71,7 @@ Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the c
 
 ---
 
-## **Tips**  
+## **Pro Tips**  
 1. **Optimize Costs:** Use Reserved Instances for predictable workloads to save up to 72%.  
 2. **Automate Provisioning:** Utilize AWS CLI or Terraform to streamline deployments.  
 3. **Set Alerts:** Use CloudWatch for critical metrics like CPU, memory, and disk usage.  
@@ -80,8 +81,8 @@ Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the c
 
 ---
 
-## **Common Issues**  
-- **Cost Management:** Unused or forgotten instances increase expenses.  
+## **Common Issues To Consider**  
+- **Cost Management:** Unused or forgotten instances contribute to cost creep.  
 - **Connection Errors:** RDP timeout errors when connecting to instances.  
 - **Billing Limits:** Instances may terminate or stop unexpectedly if billing limits are exceeded.
 
@@ -93,5 +94,5 @@ Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the c
 
 ---
 
-## **Experience Example**  
-"I used EC2 Auto Scaling to manage fluctuating web traffic, reducing downtime during peak periods and optimizing costs efficiently."
+## **My Experience**  
+I used EC2 Auto Scaling to manage a web app that saw fluctuating web traffic during a campaign. There was no downtime or complaints during the peak period and the costs were under control.
