@@ -29,3 +29,8 @@
   2. `cd ~/.ssh ` This command goes to the SSH directory so it is active to make a change.
   3. `Rm id"tab"` This command removes the file name (ID) of the private key and then the public key. Using the "tab" autofills the key from this location instead of writing it. This command is entered twice - for the private and public key.
   4. `RM -i * ` This command removes all the SSH keys in the SSH directory   
+
+  ### **2. Understanding AWS Concepts**
+Reading resources and making notes for fundamental concepts.
+
+![AWS](Assets/AWS.png)  
