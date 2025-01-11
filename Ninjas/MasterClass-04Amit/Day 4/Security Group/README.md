@@ -1,5 +1,4 @@
 # Security Groups & Elastic IPs: Secure and Flexible Network Access  
-
 ---
 
 ## **Purpose**  
