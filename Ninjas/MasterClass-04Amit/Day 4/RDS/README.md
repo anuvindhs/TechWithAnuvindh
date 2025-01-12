@@ -1,10 +1,10 @@
-# RDS: Simplifying Relational Database Management  
+# RDS: Relational Database Management
 
 ---
 
 ## **Purpose**  
 
-Amazon Relational Database Service (RDS) is a managed database service which simplifies the setup, operation, and scaling on demand of relational databases in the cloud. RDS automates the underlying administrative tasks like provisioning, configuring, patching, backup, recovery, and scaling, allowing businesses to focus on application development and data management.
+Amazon Relational Database Service (RDS) is a managed database service which simplifies the setup, operation, and scaling on demand of relational databases in the cloud. RDS allows developers to focus on application logic instead of underlaying database administrative tasks like provisioning, configuring, patching, backup, recovery, and scaling.
 
 
 
