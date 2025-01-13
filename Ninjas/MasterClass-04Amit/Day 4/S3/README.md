@@ -4,7 +4,7 @@
 
 ## **Purpose**  
 
-Amazon S3 is a scalable, reliable, and secure object storage service used for:  
+Amazon S3 (simple storage service) is a scalable, reliable, and secure object storage service used for:  
 - Storing and retrieving any amount of data from anywhere on the web.  
 - Supporting use cases such as data backup, data lakes, content distribution, big data analytics, generative AI, and application hosting.  
 
