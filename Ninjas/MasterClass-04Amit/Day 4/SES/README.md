@@ -10,14 +10,14 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 
 1. **Verify & Authenticate Sending Identity:**
  - Verify ownership of the domain or email addresses to ensure email delivery.
-  - For transactional emails, domain verification is recommended. 
-     - Add the CNAME records provided by SES to the DNS provider. DNS propagation and verification can take up to 72 hours.
-    - SES supports DKIM and SPF for email authentication. 
-
 ![ses](Assets/ses1.png)
 ![ses](Assets/ses2.png)
 ![ses](Assets/ses3.png)
 ![ses](Assets/ses4.png)
+  - For transactional emails, domain verification is recommended. 
+     - Add the CNAME records provided by SES to the DNS provider. DNS propagation and verification can take up to 72 hours.
+    - SES supports DKIM and SPF for email authentication. 
+
 
 2. **SMTP Settings:**
 - Create SMTP user with credentials to send emails.
@@ -38,13 +38,13 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 
 5. **Request Production Access:**
 - SES operates in a default sandbox environment, limiting emails to verified addresses to prevent fraud and malicious activity. To send emails to unverified recipients, request production access.
-
-
-![ses](Assets/ses12.png)
+ ![ses](Assets/ses12.png)
 
 6. **Monitor Email Metrics:**
-- Use Amazon CloudWatch to track email delivery performance, such as bounce rates and complaints.
-![ses](Assets/ses13.png)
+ - Use Amazon CloudWatch to track email delivery performance, such as bounce rates and complaints.
+
+   ![ses](Assets/ses13.png)
+
 ---
 
 ### **Features & Benefits**

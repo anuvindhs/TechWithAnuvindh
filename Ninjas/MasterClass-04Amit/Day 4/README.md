@@ -31,6 +31,38 @@
   4. `RM -i * ` This command removes all the SSH keys in the SSH directory   
 
   ### **2. Understanding AWS Concepts**
-Reading resources and making notes for fundamental concepts.
+Making notes for fundamental concepts:
 
-![AWS](Assets/AWS.png)  
+![AWS](Assets/AWS.png)
+
+[Amazon Bedrock](/Ninjas/MasterClass-04Amit/Day%204/Amazon%20Bedrock/README.md)
+
+[Cloudfront](/Ninjas/MasterClass-04Amit/Day%204/Cloudfront/README.md)
+
+[Cloudwatch](/Ninjas/MasterClass-04Amit/Day%204/CloudWatch/README.md)
+
+[DynamaoDB](/Ninjas/MasterClass-04Amit/Day%204/DynamoDB/README.md)
+
+[EC2](/Ninjas/MasterClass-04Amit/Day%204/EC2/README.md)
+
+[ELB](/Ninjas/MasterClass-04Amit/Day%204/ELB/README.md)
+
+[IAM](/Ninjas/MasterClass-04Amit/Day%204/IAM/README.md)
+
+[Lambda](/Ninjas/MasterClass-04Amit/Day%204/Lambda/README.md)
+
+[Opensource](/Ninjas/MasterClass-04Amit/Day%204/Opensource/README.md)
+
+[RDS](/Ninjas/MasterClass-04Amit/Day%204/RDS/README.md)
+
+[Route53](/Ninjas/MasterClass-04Amit/Day%204/Route53/README.md)
+
+[S3](/Ninjas/MasterClass-04Amit/Day%204/S3/README.md)
+
+[Security Group](/Ninjas/MasterClass-04Amit/Day%204/Security%20Group/README.md)
+
+[SES](/Ninjas/MasterClass-04Amit/Day%204/SES/README.md)
+
+[SNS](/Ninjas/MasterClass-04Amit/Day%204/SNS/README.md)
+
+[VPC](/Ninjas/MasterClass-04Amit/Day%204/VPC/README.md)
