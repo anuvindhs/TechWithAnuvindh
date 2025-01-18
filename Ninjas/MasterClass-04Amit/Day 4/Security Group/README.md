@@ -1,5 +1,4 @@
 # Security Groups & Elastic IPs: Secure and Flexible Network Access  
----
 
 ## **Purpose**  
 
@@ -9,7 +8,6 @@
 
 While Security Groups enhance network security, Elastic IPs are particularly useful for disaster recovery and maintaining consistent connectivity for critical applications.  
 
----
 
 ## **How It Works**  
 
@@ -36,7 +34,7 @@ While Security Groups enhance network security, Elastic IPs are particularly use
 
   <img src="Assets\eip.png" alt="eip" width="500">
 
----
+
 
 ## **Features & Benefits**  
 
@@ -52,7 +50,6 @@ While Security Groups enhance network security, Elastic IPs are particularly use
 4. **Network Flexibility**:  
    - EIPs allow seamless workload migration between instances and regions with minimal disruption.  
 
----
 
 ## **Use Cases**  
 
@@ -68,7 +65,6 @@ While Security Groups enhance network security, Elastic IPs are particularly use
 4. **API Services**:  
    - Maintain API consistency during migrations or updates using a stable Elastic IP.  
 
----
 
 ## **Pro Tips**  
 
@@ -79,7 +75,7 @@ While Security Groups enhance network security, Elastic IPs are particularly use
 - For ports like SSH (22) or RDP (3389), restrict access to specific IP ranges to minimize unauthorized access risks.  
 - Avoid leaving unused EIPs allocated to your account to prevent costs and exhaustion of available IPs.  
 
----
+
 
 ## **Common Issues**  
 
@@ -92,15 +88,10 @@ While Security Groups enhance network security, Elastic IPs are particularly use
 3. **Unnecessary Open Ports**:  
    - Leaving unnecessary ports open can expose instances to security threats. Regularly audit and close unused ports.  
 
----
 
 ## **Pricing**  
 
 - **Security Groups**: Free to use; however, associated resources like EC2 instances incur costs based on AWS pricing.  
 - **Elastic IPs**: Free when associated with a running instance but incur hourly charges when idle or allocated beyond the default quota.  
 
----
 
-## **My Experience**  
-
-In one of my projects, I used Elastic IPs to ensure public-facing web applications maintained consistent IP addresses even during instance restarts for maintenance. Additionally, I implemented strict Security Group rules, restricting SSH access to specific IP addresses, which significantly enhanced data security and reduced una

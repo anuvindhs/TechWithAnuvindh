@@ -1,12 +1,12 @@
 # **AWS CloudWatch: Monitoring Service**
 
----
+
 
 ## **Purpose**
 
 AWS CloudWatch is a service that monitors the operational health of cloud resources, applications, and services. It provides metrics, logs, and alarms, allowing you to respond to operational changes in real-time.
 
----
+
 
 ## **How It Works**
 ![cw](Assets/cw1.png)
@@ -23,7 +23,7 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
     - Use CloudWatch Logs Insights to query log groups over specific time ranges, providing detailed information from AWS services, applications, and on-premises servers.
 
 
----
+
 
 ## **Features & Benefits**
 
@@ -41,7 +41,7 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
    - Receive notifications for potential issues via email, SMS, or application endpoints using SNS. Automate responses to critical alarms.
 
 
----
+
 
 ## **Use Cases**
 
@@ -57,7 +57,7 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
 4. **Website Testing:**
    - Analyze website traffic, logs, and web requests to ensure smooth functionality. 
 
----
+
 
 ## **Pro Tips**
 
@@ -70,9 +70,9 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
 4. **Log Retention:**
    - Adjust log retention policies to avoid unnecessary storage costs.
 
----
 
-## **Common Challenges**
+
+## **Common Issues**
 
 1. **Metric Overload:**
    - Managing large volumes of metrics can be overwhelming without filtering or grouping.
@@ -81,7 +81,6 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
    - Storing and analyzing logs in large environments can be costly if not optimized.
 
 
----
 
 ## **Pricing**
 
@@ -98,4 +97,3 @@ AWS CloudWatch is a service that monitors the operational health of cloud resour
 4. **Dashboards:**
    - Free for up to three dashboards per account with charges for additional dashboards.
 
----

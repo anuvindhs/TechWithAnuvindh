@@ -1,6 +1,5 @@
 # RDS: Relational Database Management
 
----
 
 ## **Purpose**  
 
@@ -8,7 +7,6 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
 
 
 
----
 
 ## **How It Works**  
 
@@ -33,7 +31,6 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
 
 
 
----
 
 ## **Features & Benefits**  
 
@@ -43,7 +40,7 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
 - **Operational Expertise** Leverages cloud-based security best practices and innovation proven over decades.
 - **Scalability**: Supports dynamic scaling to handle unpredictable workloads.  
 
----
+
 
 ## **Use Cases**  
 
@@ -59,14 +56,14 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
 4. **Upgrade Legacy Databases**: 
    - Migrate to engines like Amazon Aurora for high performance and availability of commercial databases at a fraction of the cost.
 
----
+
 
 ## **Pro Tips**  
 
 - Use **Multi-AZ deployments** for high availability and automatic failover.  
 - Monitor database health using **Amazon CloudWatch** and enable **Performance Insights** to analyze queries and optimize performance.   
 
----
+
 
 ## **Common Issues**  
 
@@ -76,7 +73,7 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
 2. **Connection Errors**:  
    - Misconfigured VPCs or security groups can block database access. Ensure proper network configurations.  
 
----
+
 
 ## **Pricing**  
 
@@ -86,9 +83,3 @@ Amazon Relational Database Service (RDS) is a managed database service which sim
   - Data transfer in and out of RDS.  
   - Backup storage and read replicas.  
 - Free Tier includes 750 hours per month of RDS usage (db.t2.micro or db.t3.micro) for one year and 20GB of storage and backups.  
-
----
-
-## **My Experience**  
-
-xx

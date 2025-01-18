@@ -72,7 +72,7 @@ Open Source refers to programs and systems whose source code is publicly accessi
 3. **Use Reliable Sources:**
    - Download open source software only from trusted repositories to avoid security risks.
 
-## **Common Challenges**
+## **Common Issues**
 
 1. **Limited Support:**
    - Some open source projects may lack dedicated, timely support.

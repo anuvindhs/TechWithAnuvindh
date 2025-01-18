@@ -1,12 +1,12 @@
 # **Elastic Load Balancer (ELB): Efficient Traffic Management**
----
+
 
 ## **Purpose**
 Elastic Load Balancer (ELB) is a managed service that distributes incoming traffic across multiple targets, such as EC2 instances, containers, IP addresses, or Lambda functions, in one or more Availability Zones (AZ). It exposes a single point of access (DNS) to the application instead of directly exposing the targets. ELB ensures fault tolerance, high availability, and scalability by balancing traffic effectively. 
 
 ![elb](Assets/elb1.png)
 
----
+
 
 ## **How It Works**
 
@@ -41,7 +41,7 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
     ![elb](Assets/elb12.png)
     ![elb](Assets/elb13.png)
 
----
+
 
 ## **Features & Benefits**
 
@@ -60,8 +60,6 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
 
 
 
----
-
 ## **Use Cases**
 
 1. **Web Applications:**
@@ -74,7 +72,6 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
    - Use GWLB to distribute traffic across third-party virtual appliances, scaling them dynamically.  
 
 
----
 
 ## **Pro Tips**
 
@@ -84,9 +81,9 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
 2. **Enable Cross-Zone Load Balancing:**
    - Distribute traffic evenly across all targets in all enabled Availability Zones.
 
----
 
-## **Common Challenges**
+
+## **Common Issues**
 
 1. **Misconfigured Health Checks:**
    - Incorrect health checks can route traffic to unhealthy targets causing application errors.
@@ -97,7 +94,6 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
 3. **Latency Issues:**
    - Inefficient network configurations or routing rules can create bottlenecks.
 
----
 
 ## **Pricing**
 
@@ -107,4 +103,3 @@ Elastic Load Balancer (ELB) is a managed service that distributes incoming traff
 2. **Data Processed:**
    - Charged based on the amount of data transferred through the load balancer.
 
----

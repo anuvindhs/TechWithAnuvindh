@@ -4,7 +4,7 @@
 
 AWS Simple Email Service (SES) is cloud-based email service that enables businesses to send transactional emails, marketing emails, newsletters and notifications reliably at scale. It provides high deliverablity and easy integration into existing applications.
 
----
+
 
 ### **How It Works**
 
@@ -45,7 +45,7 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 
    ![ses](Assets/ses13.png)
 
----
+
 
 ### **Features & Benefits**
 
@@ -61,7 +61,7 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 4. **Simplified Email Management:**
    - Automates sending bulk emails and provides tools for secure incoming email handling.
 
----
+
 
 ### **Use Cases**
 
@@ -74,7 +74,7 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 3. **Event Notifications:**
    - Notify users about critical events, updates, or system changes in real time.
 
----
+
 
 ### **Pro Tips**
 
@@ -85,9 +85,9 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
    - Monitor metrics like bounce rates and complaints. Set alerts for unusual activity to maintain sender reputation.
 
 
----
 
-### **Common Challenges**
+
+### **Common Issues**
 
 1. **Spam:**
    - Misconfigured emails may end up in spam folders so use authentication protocols like DKIM and SPF.
@@ -99,7 +99,6 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
    - Large email volumes without any warm up can lead to poor deliverability. To build strong IP reputation start with small email volumes and gradually scale up.
 
 
----
 
 ### **Pricing**
 
@@ -109,4 +108,4 @@ AWS Simple Email Service (SES) is cloud-based email service that enables busines
 2. **Incoming Emails:**
    - Free for the first 1,000 emails received each month, then charged per email received.
 
----
+

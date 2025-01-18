@@ -1,12 +1,12 @@
 # AWS DynamoDB: Managed NoSQL Database Service  
 
----
+
 
 ## **Purpose**  
 
 AWS DynamoDB is a fully managed NoSQL (non-relational) database service offering high availability, scalability, and low-latency data access. It is ideal for high traffic web applications, mobile apps, eCommerce and gaming that requires consistent performance at any scale, and IoT.
 
----
+
 
 ## **How It Works**  
 
@@ -29,7 +29,8 @@ AWS DynamoDB is a fully managed NoSQL (non-relational) database service offering
    ![db5](Assets/db5.png) 
    ![db6](Assets/db6.png)   
    - Create item.
-   ![db7](Assets/db7.png) 
+
+     ![db7](Assets/db7.png) 
 
    - Define attributes in Form or JSON format.
    ![db8](Assets/db8.png) 
@@ -42,9 +43,10 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 ### **3. Query and Scan Operations**
    - Use the `Query` operation to retrieve data using partition key and optional sort key.  
    - Use the `Scan` operation to retrieve all items from a table or secondary index (less efficient than `Query`).
-   ![db11](Assets/db11.png)  
 
----
+      ![db11](Assets/db11.png)  
+
+
 
 ## **Features & Benefits**  
 
@@ -66,7 +68,7 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 6. **Cost Efficiency**:  
    - Pay for the actual reads and writes performed based on throughput and storage consumed.  
 
----
+
 
 ## **Use Cases**  
 
@@ -82,7 +84,7 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 4. **IoT Applications**:  
    - Store sensor data, device states, and logs with low-latency access and auto scaling to handle large data volumes.  
 
----
+
 
 ## **Pro Tips**  
 
@@ -101,7 +103,7 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 - **Utilize Time-to-Live (TTL):**  
    - Automatically delete expired data to save on storage costs.
 
----
+
 
 ## **Common Issues**  
 
@@ -114,7 +116,6 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 3. **Item Size Limit:**  
    - Items are limited to 400 KB. Use S3 for storing large objects and store references in DynamoDB.
 
----
 
 ## **Pricing**  
 
@@ -128,10 +129,4 @@ DynamoDB stores the data in partitions and automatically replicates it across mu
 - **Free Tier**:  
    - 25 GB of storage and 25 write capacity units and 25 read capacity units per month are free for the first 12 months.  
 
----
 
-## **My Experience**  
-
-XX
-
----

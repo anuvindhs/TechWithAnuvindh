@@ -1,5 +1,4 @@
 # **Amazon Bedrock: Generative AI Simplified**
----
 
 ## **Purpose**
 
@@ -7,7 +6,7 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
 
 ![bedrock](Assets/bed1.png)
 
----
+
 
 ## **How It Works**
 
@@ -50,7 +49,7 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
    ![bedrock: API Integration](Assets/bed10.png)  
    ![bedrock: API Example](Assets/bed13.png)
 
----
+
 
 ## **Features & Benefits**
 
@@ -67,8 +66,6 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
    - Seamlessly integrate with other AWS services like Lambda and S3 to streamline workflows and data management.
 
 
----
-
 ## **Use Cases**
 
 1. **Content Generation:**
@@ -84,7 +81,7 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
 4. **Productivity Tools:**
    - Develop task driven, AI-powered tools to enhance workflow efficiency.
 
----
+
 
 ## **Pro Tips**
 
@@ -95,9 +92,7 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
    - Utilize Amazon Bedrock’s secure environment to maintain proprietary data privacy during model customization.
 
 
----
-
-## **Common Challenges**
+## **Common Issues**
 
 1. **Model Selection:**
    - Choosing the right model can be difficult without adequate experimentation.
@@ -108,7 +103,7 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
 3. **Cost Management:**
    - High-volume token usage can lead to high costs without proper monitoring.
 
----
+
 
 ## **Pricing**
 
@@ -124,4 +119,4 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
 3. **Provision Throughput:**
 - Hourly charges apply for purchasing model units for consistent usage, with commitment options ranging from 1 to 6 months.
 
----
+

@@ -1,13 +1,11 @@
 # AWS Lambda: Serverless Compute for Applications  
 
----
 
 ## **Purpose**  
 
 AWS Lambda is a serverless compute service that automatically manages infrastructure, allowing developers to focus on application logic. It runs code in response to events and handles tasks like server provisioning, scaling, and patching. Lambda is ideal for building scalable, event-driven applications, requiring developers to supply only the code while AWS manages the underlying compute service.
 
 
----
 
 ## **How It Works**  
 
@@ -28,7 +26,7 @@ AWS Lambda is a serverless compute service that automatically manages infrastruc
 4. **Scaling**:  
    - Lambda automatically scales horizontally by creating multiple instances of your function to handle concurrent requests.  
 
----
+
 
 ## **Features & Benefits**  
 
@@ -44,7 +42,7 @@ AWS Lambda is a serverless compute service that automatically manages infrastruc
 4. **Cost Efficiency**:  
    - Pay only for requests and the compute time (billed in 1-millisecond increments). No charge when the function is idle.  
 
----
+
 
 ## **Use Cases**  
 
@@ -63,7 +61,7 @@ AWS Lambda is a serverless compute service that automatically manages infrastruc
 5. **IoT Applications**:  
    - Process data from IoT devices and execute business logic in response to events without over-provisioning resources.  
 
----
+
 
 ## **Pro Tips**  
 
@@ -72,7 +70,6 @@ AWS Lambda is a serverless compute service that automatically manages infrastruc
 - **Enable Reserved Concurrency**: Reserve capacity to ensure critical functions always have compute resources.  
 - **Test with Local Tools**: Use tools like the AWS SAM CLI for local testing and debugging before deployment.  
 
----
 
 ## **Common Issues**  
 
@@ -88,15 +85,10 @@ AWS Lambda is a serverless compute service that automatically manages infrastruc
 3. **IAM Misconfigurations**:  
    - Functions may fail to access required resources without necessary permissions. Regularly audit IAM policies to avoid errors.  
 
----
 
 ## **Pricing**  
 
 - **Compute Pricing**: Charged based on the number of requests and duration of code execution, billed in 1-millisecond increments.  
 - **Free Tier**: 1 million requests and 400,000 GB-seconds of compute time per month are free.  
  
----
 
-## **My Experience**  
-
-xx

@@ -48,7 +48,7 @@ AWS data centres host the EC2 which is accessible to the user from anywhere, pro
    - Use Auto Scaling to match resource allocation with demand.
    - Monitor performance using Amazon CloudWatch to optimize costs and resources.
 
----
+
 
 ## **Features & Benefits**  
 - **Customizable Instances:** Tailor compute resources to exact workload requirements minimizing unnecessary running costs(OpEx).
@@ -58,7 +58,7 @@ AWS data centres host the EC2 which is accessible to the user from anywhere, pro
 - **Fast Provisioning:** Launch virtual machines within minutes with a 99.99% SLA uptime guarantee.
 - **Global Reach:** Operate across multiple regions and Availability Zones for enhanced resilience.
 
----
+
 
 ## **Use Cases**  
 - Hosting websites, web applications, and APIs.  
@@ -69,7 +69,7 @@ AWS data centres host the EC2 which is accessible to the user from anywhere, pro
 - Scalable video streaming (e.g., Netflix).  
 - Deploying containerized applications (e.g., Docker, Kubernetes, microservices).
 
----
+
 
 ## **Pro Tips**  
 1. **Optimize Costs:** Use Reserved Instances for predictable workloads to save up to 72%.  
@@ -79,20 +79,14 @@ AWS data centres host the EC2 which is accessible to the user from anywhere, pro
 5. **Secure Access:** Rotate SSH/RDP keys periodically and restrict network access with security groups.  
 6. **Load Balancing:** Use Elastic Load Balancing (ELB) to distribute traffic across instances for high availability.
 
----
 
-## **Common Issues To Consider**  
+
+## **Common Issues**  
 - **Cost Management:** Unused or forgotten instances contribute to cost creep.  
 - **Connection Errors:** RDP timeout errors when connecting to instances.  
 - **Billing Limits:** Instances may terminate or stop unexpectedly if billing limits are exceeded.
 
----
 
 ## **Pricing**  
 - **Pay-As-You-Go:** Competitive pricing based on usage.  
 - **Discounts:** Spot pricing and Reserved Instances provide significant cost reductions.
-
----
-
-## **My Experience**  
-I used EC2 Auto Scaling to manage a web app that saw fluctuating web traffic during a campaign. There was no downtime or complaints during the peak period and the costs were under control.

@@ -1,6 +1,6 @@
 # **AWS CloudFront: Fast Content Delivery**
 
----
+
 
 ## **Purpose**
 
@@ -8,7 +8,7 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
 
 ![cf overview](Assets/cf2.png)  
 
----
+
 
 ## **How It Works**
 
@@ -38,7 +38,7 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
             ![cf](Assets/cf12.png)
                ![cf](Assets/cf13.png)
                   ![cf](Assets/cf14.png)
----
+
 
 ## **Features & Benefits**
 
@@ -55,7 +55,7 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
 5. **Serverless at the Edge:**  
    - Lambda@Edge enables to run serverless functions closer to users improving performance by reducing latency.
 
----
+
 
 ## **Use Cases**
 
@@ -71,7 +71,7 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
 4. **Software Distribution:**  
    - Efficiently deliver large files, updates, and patches to global users.
 
----
+
 
 ## **Pro Tips**
 
@@ -86,9 +86,7 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
   - Protect applications by setting up AWS WAF to block malicious traffic or prevent common attacks like SQL injection and cross-site scripting (XSS).
 
 
----
-
-## **Common Challenges**
+## **Common Issues**
 
 1. **Cache Invalidation:**  
    - Clearing cached content at edge locations can incur additional costs.  
@@ -99,7 +97,6 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
 4. **Cost Management:**  
    - Monitor data transfer and request rates to avoid high running costs.  
 
----
 
 ## **Pricing**
 
@@ -115,4 +112,4 @@ AWS CloudFront is a Content Delivery Network (CDN) service that securely deliver
 4. **Lambda@Edge:**  
    - Charged based on the number of executions and compute time. The free tier includes 1 million requests per month.
 
----
+

@@ -1,11 +1,10 @@
 # **AWS VPC: Virtual Private Cloud**
 
----
 
 ## **Purpose**
 AWS Virtual Private Cloud (VPC) logically isolates computing resources in a private virtual network hosted on the provider's public cloud infrastructure. Setting the IP addressing for the VPC, and subnets within, route tables, internet gateways controls communication between the resources within the network and to the internet.
 
----
+
 
 ## **How It Works**
 ![vpc Overview](Assets/vpc1.png)  
@@ -19,7 +18,7 @@ Note: AWS provides a default VPC when an account is created.
   - Define tenancy - default is using what AWS assigns in the region specified.
   - Define number of AZ for redundancy.
 ![vpc Overview](Assets/vpc3.png)
----
+
 
 ### **2. Subnets**
 - **Create Subnets:**  
@@ -30,7 +29,7 @@ Note: AWS provides a default VPC when an account is created.
       - Define number of private subnets which isolates internal resources which can access internet securely for updates, patches via a NAT with a public IP.
 ![vpc Overview](Assets/vpc4.png)
 ![vpc Overview](Assets/vpc5.png)
----
+
 
 ### **3. Route Tables**
 - **Public Route Table:**  
@@ -44,7 +43,7 @@ Note: AWS provides a default VPC when an account is created.
 - **Associate Subnets:**  
   - Attach specific route tables to subnets for precise traffic control.
 
----
+
 
 ### **4. Gateways**
 - **Internet Gateway (IGW):**  
@@ -56,7 +55,7 @@ Note: AWS provides a default VPC when an account is created.
 - **Virtual Private Gateway (VGW):**  
   - Connect the VPC to an on-premises network via VPN or AWS Direct Connect.
 
----
+
 
 ### **5. Security Groups & Network ACLs**
 ![vpc Overview](Assets/vpc8.png)
@@ -70,7 +69,7 @@ Note: AWS provides a default VPC when an account is created.
   - Stateless filters for subnet traffic.  
   - Example: Deny traffic from a malicious IP range.
 
----
+
 
 ## **Features & Benefits**
 
@@ -84,7 +83,6 @@ Note: AWS provides a default VPC when an account is created.
    - Dynamically add or modify subnets, gateways, and route tables as the network demands.
 
 
----
 
 ## **Use Cases**
 
@@ -100,7 +98,7 @@ Note: AWS provides a default VPC when an account is created.
 4. **Disaster Recovery:**  
    - Use VPC for site replication to ensure business continuity.
 
----
+
 
 ## **Pro Tips**
 
@@ -113,9 +111,9 @@ Note: AWS provides a default VPC when an account is created.
 - **Use AWS Transit Gateway:**  
   - Simplify routing across multiple VPCs and on-premises networks.
 
----
 
-## **Common Challenges**
+
+## **Common Issues**
 
 1. **Overlapping CIDR Blocks:**  
    - Leads to routing conflicts in hybrid or multi-VPC environments.
@@ -123,7 +121,6 @@ Note: AWS provides a default VPC when an account is created.
 2. **Internet Access in Private Subnets:**  
    - Requires proper configuration of NAT Gateway/Instance otherwise resources are exposed to the internet.
 
----
 
 ## **Pricing**
 
@@ -137,6 +134,3 @@ Note: AWS provides a default VPC when an account is created.
    - Billed hourly and by data processed.
 
 
----
-
-## **My Experience**

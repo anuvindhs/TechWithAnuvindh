@@ -1,12 +1,12 @@
 # **AWS IAM: Secure Access Management**
 
----
+
 
 ## **Purpose**
 
 AWS Identity and Access Management (IAM) service is used to securely control access to AWS resources. It provides granular control over user authentication (who) and authorization (what they can do), ensuring users and resources have the correct level of access.
 
----
+
 
 ## **How It Works**
 
@@ -55,8 +55,6 @@ AWS Identity and Access Management (IAM) service is used to securely control acc
 
 
 
----
-
 ## **Features & Benefits**
 
 1. **Granular Permissions:**
@@ -71,7 +69,7 @@ AWS Identity and Access Management (IAM) service is used to securely control acc
 4. **Auditing and Compliance:**
    - Track user activities to deestablish inactive accounts, unused resource access.
 
----
+
 
 ## **Use Cases**
 
@@ -87,7 +85,7 @@ AWS Identity and Access Management (IAM) service is used to securely control acc
 4. **Temporary Credentials:**
    - Generate temporary credentials for contractors or third-party applications.
 
----
+
 
 ## **Pro Tips**
 
@@ -102,9 +100,9 @@ AWS Identity and Access Management (IAM) service is used to securely control acc
 
 4. **Regularly Review Permissions:**
    - Audit IAM permissions regularly to remove unused or overly permissive access.
----
 
-## **Common Challenges**
+
+## **Common Issues**
 
 1. **Overly Permissive Policies:**
    - Misconfigured policies may grant unnecessary access, increasing security risks.
@@ -115,11 +113,10 @@ AWS Identity and Access Management (IAM) service is used to securely control acc
 3. **Poor Key Management:**
    - Mishandling access keys can lead to compromised credentials.
 
----
+
 
 ## **Pricing**
 
  **Free Tier:**
    - IAM is free to use for managing users, groups, and roles.
 
----

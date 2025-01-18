@@ -5,7 +5,7 @@
 AWS Simple Notification Service (SNS) is a fully managed message publishing service (PubSub) that allows publishers to send messages to a topic. The topic fans out messages to millions of subscribers, which can be endpoints or devices such as email addresses, HTTP endpoints, SQS queues, or SMS messages.
 
 ![sns](Assets/sns1.png)
----
+
 
 ### **How It Works**
 
@@ -34,7 +34,6 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 ![sns](Assets/sns11.png)
 ![sns](Assets/sns12.png)
 ![sns](Assets/sns13.png)
----
 
 ### **Features & Benefits**
 
@@ -52,7 +51,7 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 
 5. **Filtering Messages:**
    - Use subscription filter policies to control which messages are delivered to which subscribers.
----
+
 
 ### **Use Cases**
 
@@ -65,7 +64,7 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 3. **Incident Management:**
    - Send alerts to on-call teams when alarms are triggered in CloudWatch or other monitoring tools.
 
----
+
 
 ### **Pro Tips**
 
@@ -81,9 +80,9 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 4. **Message Encryption:**
    - Use AWS Key Management Service (KMS) for encrypting messages at rest.
 
----
 
-### **Common Challenges**
+
+### **Common Issues**
 
 1. **Message Loss:**
    - Without DLQs, undelivered messages may be lost.
@@ -91,7 +90,7 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 2. **Overhead Costs:**
    - Logging and excessive retries for unsuccessful deliveries can increase costs.
 
----
+
 
 ### **Pricing**
 
@@ -100,5 +99,3 @@ AWS Simple Notification Service (SNS) is a fully managed message publishing serv
 
 2. **Free Tier:**
    - Includes 1 million publishes, 1 million HTTP/HTTPS notifications, and 1,000 email notifications.
-
----
