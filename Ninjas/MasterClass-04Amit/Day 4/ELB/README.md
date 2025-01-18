@@ -1,53 +1,8 @@
 # **Elastic Load Balancer (ELB): Efficient Traffic Management**
-
 ---
 
 ## **Purpose**
-
 Elastic Load Balancer (ELB) is a managed service that distributes incoming traffic across multiple targets, such as EC2 instances, containers, IP addresses, or Lambda functions, in one or more Availability Zones (AZ). It exposes a single point of access (DNS) to the application instead of directly exposing the targets. ELB ensures fault tolerance, high availability, and scalability by balancing traffic effectively. 
-![elb](Assets/elb1.png)
-
- 
-
----
-
-## **How It Works**
-
-1. **Select Load Balancer Type:**
-   - ELB offers multiple types of load balancers for different uses.
-
-   ![elb](Assets/elb2.png)
-      ![elb](Assets/elb3.png)
- - **Application Load Balancer (ALB):** Operates at Layer 7 for HTTP/HTTPS traffic and supports routing based on URLs or hostnames. 
-
-Your content structure for Elastic Load Balancer (ELB) is well-organized and follows a logical flow. However, a few corrections and enhancements can improve accuracy and clarity:
-
-Adjustments and Suggestions:
-Consistency in Descriptions:
-
-Replace "New generation" with "Operates at" in the descriptions of ALB and NLB for better clarity and readability.
-Define "AZ" clearly as "Availability Zone" when first mentioned.
-Numbering Issues:
-
-Ensure that numbering for sections like Targets Group Settings and Health Checks flows sequentially (e.g., no repeated "2").
-Visual Cues for Pro Tips:
-
-Include sub-bullets or formatting for better readability of Pro Tips section.
-Pricing Details:
-
-Elaborate slightly on pricing to clarify that additional charges might apply for features like SSL termination or cross-zone load balancing.
-Here’s the corrected version:
-
-markdown
-Copy
-Edit
-# **Elastic Load Balancer (ELB): Efficient Traffic Management**
-
----
-
-## **Purpose**
-
-Elastic Load Balancer (ELB) is a managed service that distributes incoming traffic across multiple targets, such as EC2 instances, containers, IP addresses, or Lambda functions, in one or more Availability Zones (AZ). It exposes a single point of access (DNS) to the application instead of directly exposing the targets. ELB ensures fault tolerance, high availability, and scalability by balancing traffic effectively.  
 
 ![elb](Assets/elb1.png)
 
