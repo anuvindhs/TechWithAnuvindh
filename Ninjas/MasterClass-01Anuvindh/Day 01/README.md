@@ -1,7 +1,7 @@
 # Day 01 Notes
 
 
-### Download and install 
+### Download and install
 - git
 - vscode
 - create AWS Account
@@ -12,22 +12,22 @@
 - publish key to github
 - Check github connectivity
 - create first repo
-- clone a repo 
+- clone a repo
 - create your first file
 
 
-### Commands 
+### Commands
 
 #### Create ssh key and validate connection
 
-``` 
-ssh-keygen -t ed25519 -C "your_email@example.com 
+```
+ssh-keygen -t edxxxxx -C "your_email@example.com
 
 # check keys
 ls -al ~/.ssh
 
 # Copy keys
-cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_edxxxxx.pub
 
 
 # check connectivity
