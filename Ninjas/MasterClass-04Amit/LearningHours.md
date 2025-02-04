@@ -1,4 +1,3 @@
-Log
 
  Day/Date | Hours | Comments| link |
 |--|--|--| --|
@@ -15,3 +14,4 @@ Log
 |    |  2 Hour | Self directed learning exercise on AWS| |
 | 04   |  3 Hour | Catch up meeting to review Day 03 and set work for Day 04, self directed learning to document SSH keys| |
 | 04   |  45 Hour | Self directed learning exercises researching various AWS concepts and documenting understanding| |
+
