@@ -41,7 +41,7 @@ Making notes for fundamental concepts:
 
 [Cloudwatch](/Ninjas/MasterClass-04Amit/Day%204/CloudWatch/README.md)
 
-[DynamaoDB](/Ninjas/MasterClass-04Amit/Day%204/DynamoDB/README.md)
+[DynamoDB](/Ninjas/MasterClass-04Amit/Day%204/DynamoDB/README.md)
 
 [EC2](/Ninjas/MasterClass-04Amit/Day%204/EC2/README.md)
 
@@ -51,11 +51,11 @@ Making notes for fundamental concepts:
 
 [Lambda](/Ninjas/MasterClass-04Amit/Day%204/Lambda/README.md)
 
-[Opensource](/Ninjas/MasterClass-04Amit/Day%204/Opensource/README.md)
+[Open Source](/Ninjas/MasterClass-04Amit/Day%204/Opensource/README.md)
 
 [RDS](/Ninjas/MasterClass-04Amit/Day%204/RDS/README.md)
 
-[Route53](/Ninjas/MasterClass-04Amit/Day%204/Route53/README.md)
+[Route 53](/Ninjas/MasterClass-04Amit/Day%204/Route53/README.md)
 
 [S3](/Ninjas/MasterClass-04Amit/Day%204/S3/README.md)
 

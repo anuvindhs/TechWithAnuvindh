@@ -117,6 +117,6 @@ Amazon Bedrock is a fully managed serverless service that allows developers to b
      - **Image Models:** Charged based on the number of images generated.
 
 3. **Provision Throughput:**
-- Hourly charges apply for purchasing model units for consistent usage, with commitment options ranging from 1 to 6 months.
+   - Hourly charges apply for purchasing model units for consistent usage, with commitment options ranging from 1 to 6 months.
 
 

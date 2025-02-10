@@ -77,7 +77,7 @@ AWS data centres host the EC2 which is accessible to the user from anywhere, pro
 3. **Set Alerts:** Use CloudWatch for critical metrics like CPU, memory, and disk usage.  
 4. **Enhance Performance:** Choose the latest generation instances for better efficiency.  
 5. **Secure Access:** Rotate SSH/RDP keys periodically and restrict network access with security groups.  
-6. **Load Balancing:** Use Elastic Load Balancing (ELB) to distribute traffic across instances for high availability.
+
 
 
 
