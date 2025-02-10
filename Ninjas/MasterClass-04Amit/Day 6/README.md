@@ -77,8 +77,9 @@ This process is followed by cloud engineers when deploying, testing, and validat
 
 ---
 
-### Launch EC2
+### 3-Tier Application Lab Part 1
 
+- **Launch EC2.**
  <img src="Assets\pic3.png" alt="pic3" width="500">
   <img src="Assets\pic4.png" alt="pic4" width="500">
 
