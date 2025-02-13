@@ -10,7 +10,7 @@
       <img src="Assets\pic2.png" alt="pic2" width="500">
 
 - **Validate file has been modified correctly and restart the Apache server:**
-
+git p
     Command: `cat /etc/hosts`
     Command: `sudo service apache2 restart`
 

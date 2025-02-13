@@ -16,4 +16,9 @@ Log
 | 04   |  3  | Catch up meeting to review Day 03 and set work for Day 04, self directed learning to document SSH keys.| |
 | 04   |  45  | Self directed learning exercises researching various AWS concepts with documentation.| |
 | 05   |  1  | Catch up meeting to review Day 04. AWS pricing calculator, open source discussion with examples.| |
-| 06   |  2.5  | Theory on 3 tier application, Research process, Lab Part 1: Deploying EC2 with Ubuntu, Installing LAMP server, Installing Wordpress.| |
+| 06   |  2.5  | Theory on 3 tier application, Research process, Lab Part 1: Deploying EC2 with Ubuntu, Installing LAMP server, Installing Wordpress.| 
+| 05,06,07   |  12  | Self directed lab exercise and documentation.|
+| 07   |  2.5  | Lab Part 2: Configuring Wordpress, connecting MySQL database.| 
+| 08   |  2  | API, DevOps| 
+| 09   |  2  | Project scope group discussion|
+| 09   |  1  | Independent group discussion on project plan|
