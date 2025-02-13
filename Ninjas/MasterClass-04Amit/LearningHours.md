@@ -1,4 +1,3 @@
-Log
 
  Day/Date | Hours | Comments| link |
 |--|--|--| --|
